@@ -10,6 +10,8 @@ Here's what badly formatted code looks like in my Visual Studio Code:
 
 I am not saying the submissions were as bad as this, but some got pretty close. This is unreadable and completely unacceptable. And it is so easy to do this right, there are tools that automatically format your code to be readable. Here's the most common one: [clang-format](clang-format/README.md)
 
+If you are wondering about the parts marked in red, that's done by the [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces) extension.
+
 ## Fork
 
 ## Sigaction
