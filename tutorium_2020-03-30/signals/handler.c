@@ -16,7 +16,7 @@ volatile sig_atomic_t g_exit = false;
 
 static void handler(int signum) {
 	if(g_flag) { // If the flag is still set, drop the signal with an error.
-		const char* errorMessage = "Unable to handle signal!";
+		const char* errorMessage = "Unable to handle signal!\n";
 		const size_t messageLength = strlen(errorMessage);
 		// This call is signal-safe, but printf would not be!
 		write(STDOUT_FILENO, errorMessage, messageLength);
