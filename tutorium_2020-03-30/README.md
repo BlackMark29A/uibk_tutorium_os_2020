@@ -22,4 +22,6 @@ Much more readable and also consistent.
 
 When looking at the submissions and talking to the PS group leaders it became very clear that some of you struggle with `fork()`. So here's how you [fork](fork/README.md).
 
-## Sigaction
+## Signals
+
+Signals are very useful, but also quite tricky to use correctly. It is not that difficult to use signals, but it is a lot more difficult to use them correctly. Of all the submissions I have looked through, there were almost none that used signals completely correctly. So let's look at [signals](signals/README.md).
