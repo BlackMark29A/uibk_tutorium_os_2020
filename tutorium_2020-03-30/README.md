@@ -12,6 +12,12 @@ I am not saying the submissions were as bad as this, but some got pretty close. 
 
 If you are wondering about the parts marked in red, that's done by the [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces) extension.
 
+After running clang-format and a little bit of manual clean-up (removing some unneeded empty lines) the same code looks like this:
+
+![Pretty](clang-format/pretty.png)
+
+Much more readable and also consistent.
+
 ## Fork
 
 When looking at the submissions and talking to the PS group leaders it became very clear that some of you struggle with `fork()`. So here's how you [fork](fork/README.md).
