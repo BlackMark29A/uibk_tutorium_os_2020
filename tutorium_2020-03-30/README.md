@@ -14,4 +14,6 @@ If you are wondering about the parts marked in red, that's done by the [Trailing
 
 ## Fork
 
+When looking at the submissions and talking to the PS group leaders it became very clear that some of you struggle with `fork()`. So here's how you [fork](fork/README.md).
+
 ## Sigaction
