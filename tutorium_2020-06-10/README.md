@@ -77,3 +77,9 @@ Another very useful feature is that you can hover over variable names to see the
 ![hover](images/hover.png)
 
 _Notice: You can clearly see that there is some garbage in the `threads` array, because this is before it is properly initialized._
+
+If you're trying to debug some behavior that only happens sometimes, you can use conditional breakpoints for this.
+
+![conditional](images/conditional.png)
+
+Simply right-click instead of left-click and select `Add Conditional Breakpoint...` and type in the expression that must be true in order for this breakpoint to trigger. In this case the breakpoint only triggers for thread 7, which might be very useful to track down bugs that only happen in a specific thread.
