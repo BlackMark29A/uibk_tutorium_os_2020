@@ -47,3 +47,13 @@ In order for the integration to work you have to open the [example folder](./exa
 This will allow vscode to find the `launch.json` and `tasks.json` files and integrate building and debugging.
 
 ![example project](images/example_project.png)
+
+### Building the project
+
+You can build your project by running the build task, for easy of use use the corresponding shortcut.
+
+![build task](images/build_task.png)
+
+Since there are multiple build tasks vscode will ask you which one you want. It will remember your last choice and allow you to just hit `Enter` to use the same choice again. So build just becomes `Ctrl+Shift+B` `Enter`.
+
+I've configured the build tasks in a way that they only open the output window if there was an error. You should regularly build your program during development to catch mistakes early, so having the build output only show up on errors is very handy for that.
