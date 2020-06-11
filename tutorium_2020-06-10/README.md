@@ -36,4 +36,14 @@ To get `clang-format` working through a remote connection you'll have to downloa
 
 ## Example project
 
-I've set up a small example project with a makefile. I've also pre-configured build tasks and a debug config. You can use this to build and debug your program through Visual Studio Code on zid-gpl.
+I've set up a small example project with a basic makefile. I've also pre-configured vscode build tasks that invoke `make` and a debug config to get gdb integration into the vscode debugger UI. You can use this to build and debug your program through Visual Studio Code on zid-gpl.
+
+### Opening the project
+
+In order for the integration to work you have to open the [example folder](./example/) with vscode in a remote session.
+
+![open folder](images/open_folder.png)
+
+This will allow vscode to find the `launch.json` and `tasks.json` files and integrate building and debugging.
+
+![example project](images/example_project.png)
