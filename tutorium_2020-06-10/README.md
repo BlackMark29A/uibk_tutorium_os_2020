@@ -57,3 +57,11 @@ You can build your project by running the build task, for easy of use use the co
 Since there are multiple build tasks vscode will ask you which one you want. It will remember your last choice and allow you to just hit `Enter` to use the same choice again. So build just becomes `Ctrl+Shift+B` `Enter`.
 
 I've configured the build tasks in a way that they only open the output window if there was an error. You should regularly build your program during development to catch mistakes early, so having the build output only show up on errors is very handy for that.
+
+### Debugging the project
+
+To start debugging select _Start Debugging_ and vscode will automatically invoke `make debug` to create a debug build and launch `gdb` with the binary and integrate everything into the debug GUI.
+
+![start debug](images/start_debug.png)
+
+If you don't have any breakpoint set this will just simply build and run your program and show you the output.
