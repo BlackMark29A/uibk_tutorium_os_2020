@@ -96,3 +96,8 @@ Familiarize yourself with the debug controls (hover over them to see what they d
 
 With the proper shortcuts you can very easily navigate (step-over, step-into) your program and can keep an eye on your variables to see their values and how they change. Use this to step through your code and observe its behavior.
 
+#### But why?
+
+A debugger is a very powerful tool. It can not only be used to track down bugs, but is also great at helping you understand what the code actually does. You can step through the individual lines of your code and see how they behave. This might, for example, be the easiest way to wrap your head around some complex algorithm.
+
+With good integration a debugger should be your go-to tool, because it is literally one left-click and a button press away. Typing out a debug `printf` statement takes more time and gives you less information.
