@@ -65,3 +65,15 @@ To start debugging select _Start Debugging_ and vscode will automatically invoke
 ![start debug](images/start_debug.png)
 
 If you don't have any breakpoint set this will just simply build and run your program and show you the output.
+
+But if you set a breakpoint (left-click on the left side of the line number) and hit `F5` your program will break at the breakpoint.
+
+![debug](images/debug.png)
+
+In this view you can see the values of local variables, add custom watch expressions, and see the call stack, which shows you how you got to this point.
+
+Another very useful feature is that you can hover over variable names to see their values.
+
+![hover](images/hover.png)
+
+_Notice: You can clearly see that there is some garbage in the `threads` array, because this is before it is properly initialized._
