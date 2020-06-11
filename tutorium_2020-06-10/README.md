@@ -31,7 +31,7 @@ You'll probably want at least the [C/C++](https://marketplace.visualstudio.com/i
 
 #### Clang-format
 
-Sadly the zid-gpl system does not have `clang-format`, not even as a module. But there is a pre-built static binary on [github](https://github.com/muttleyxd/clang-format-static-binaries/releases), which you can use. For general clang-format integration see my [previous writeup](../tutorium_2020-03-30/clang-format/README.md).
+Sadly the zid-gpl system does not have `clang-format`, not even as a module. But there is a pre-built static binary on [github](https://github.com/muttleyxd/clang-format-static-binaries/releases), which you can use. For general clang-format integration see my [previous writeup](../tutorium_2020-03-30/clang-format/README.md).  
 To get `clang-format` working through a remote connection you'll have to download the binary from github (or use the one in this [repo](clang-format-10_linux-amd64)) and put it somewhere in your home directory on zid-gpl. Then you'll need to set the absolute path to this executable in the settings of the clang-format extension (File -> Preferences -> Settings -> Extensions -> Clang-Format Configuration -> Executable).
 
 ## Example project
