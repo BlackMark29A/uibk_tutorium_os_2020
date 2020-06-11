@@ -72,11 +72,15 @@ But if you set a breakpoint (left-click on the left side of the line number) and
 
 In this view you can see the values of local variables, add custom watch expressions, and see the call stack, which shows you how you got to this point.
 
+#### Hover
+
 Another very useful feature is that you can hover over variable names to see their values.
 
 ![hover](images/hover.png)
 
 _Notice: You can clearly see that there is some garbage in the `threads` array, because this is before it is properly initialized._
+
+#### Conditional breakpoints
 
 If you're trying to debug some behavior that only happens sometimes, you can use conditional breakpoints for this.
 
