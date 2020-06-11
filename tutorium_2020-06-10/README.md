@@ -9,7 +9,9 @@ So make sure you have your tooling in-order before the exam starts.
 
 ## Visual Studio Code Remote - SSH
 
-If you don't have this extension already [you can get it here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh). This allows you to use your local Visual Studio Code on whatever OS you're using, to develop/deploy/debug on a remote machine, like zid-gpl.
+Through the use of the [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) extension, Visual Studio Code allows you to connect to a remote system using SSH and build/debug/run your software there, all while using your local Visual Studio Code instance, running on whatever OS you're using.
+
+This is very useful in general, but should be especially useful for the exam, since it is a hard requirement that your program compiles and runs on zid-gpl.
 
 ### Remote Extensions
 
