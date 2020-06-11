@@ -1,4 +1,4 @@
-CFLAGS = -std=gnu11 -Wall -Werror -Wextra -pedantic -O3
+CFLAGS = -std=gnu11 -Wall -Werror -Wextra -Wconversion -pedantic -O3
 LDFLAGS = -lpthread
 
 .PHONY: all clean
