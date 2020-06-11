@@ -1,16 +1,14 @@
-CFLAGS = -std=gnu11 -Wall -Werror -Wextra -pedantic
+CFLAGS = -std=gnu11 -Wall -Werror -Wextra -pedantic -O3
+LDFLAGS = -lpthread
 
-.PHONY: all clean version
+.PHONY: all clean
 
-all: main
+all: main debug
 
 debug: main.c
-	$(CC) $(CFLAGS) -Og -g3 -o $@ $<
-
-clean:
-	$(RM) main.o main debug
-
-version:
-	$(CC) --version
+	$(CC) $(CFLAGS) $(LDFLAGS) -Og -g3 -o $@ $<
 
 main: main.c
+
+clean:
+	$(RM) main debug

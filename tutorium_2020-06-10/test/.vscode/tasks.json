@@ -4,7 +4,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "module load gcc/9.2.0; make all",
+            "command": "module load gcc/9.2.0; make main",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
@@ -35,21 +35,6 @@
             "label": "Build clean",
             "type": "shell",
             "command": "make clean",
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
-            "label": "Build version",
-            "type": "shell",
-            "command": "module load gcc/9.2.0; make version",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
