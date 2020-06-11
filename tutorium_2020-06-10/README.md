@@ -87,3 +87,12 @@ If you're trying to debug some behavior that only happens sometimes, you can use
 ![conditional](images/conditional.png)
 
 Simply right-click instead of left-click and select `Add Conditional Breakpoint...` and type in the expression that must be true in order for this breakpoint to trigger. In this case the breakpoint only triggers for thread 7, which might be very useful to track down bugs that only happen in a specific thread.
+
+#### Debug controls
+
+Familiarize yourself with the debug controls (hover over them to see what they do and their shortcut).
+
+![debug controls](images/debug_controls.png)
+
+With the proper shortcuts you can very easily navigate (step-over, step-into) your program and can keep an eye on your variables to see their values and how they change. Use this to step through your code and observe its behavior.
+
