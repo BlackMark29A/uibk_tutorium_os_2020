@@ -13,6 +13,16 @@ Through the use of the [Remote - SSH](https://marketplace.visualstudio.com/items
 
 This is very useful in general, but should be especially useful for the exam, since it is a hard requirement that your program compiles and runs on zid-gpl.
 
+### Setting up Remote - SSH
+
+After installing the extension you can start a SSH session by clicking ![remote button](images/remote_button.png) in the bottom left.
+
+You can then connect to a host.
+
+![connect to host](images/connect_to_host.png)
+
+This will run you through the necessary steps of adding a new host and allow you to connect to it. The process should be very straight forward, but if you're having trouble look at the [Getting started](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) section of the extension or follow the [step-by-step tutorial](https://aka.ms/vscode-remote/ssh/tutorial) linked there.
+
 ### Remote Extensions
 
 If you connect to some remote system using this extension you will not have any extensions installed in your remote session. So you'll have to reinstall all extensions that you'll want to use and they will be installed into your home directory on the remote system.
