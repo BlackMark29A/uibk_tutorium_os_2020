@@ -2,7 +2,7 @@
 
 In light of the upcoming exam, I thought I'd give you some tooling to help streamline your development and especially debug cycle on the zid-gpl server.
 
-I assume that a large number of you uses Visual Studio Code as your text editor, so I'll only cover that. If you're using different tools you're gonna have to figure what works best for you.
+I assume that a large number of you uses Visual Studio Code as your text editor, so I'll only cover that. If you're using different tools you're gonna have to figure out what works best for you and your tools.
 
 The amount of time you have available for the exam is somewhat limited and you **will** run out of time if you need to set up your build environment first.
 So make sure you have your tooling in-order before the exam starts.
