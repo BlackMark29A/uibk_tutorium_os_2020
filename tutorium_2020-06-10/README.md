@@ -1,4 +1,4 @@
-# Tutorium 2020-06-10 (draft)
+# Tutorium 2020-06-10
 
 In light of the upcoming exam, I thought I'd give you some tooling to help streamline your development and especially debug cycle on the zid-gpl server.
 
